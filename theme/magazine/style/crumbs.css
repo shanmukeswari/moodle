@@ -1,0 +1,45 @@
+div.navbar {
+    padding: .5em 0;
+}
+
+div.navbar div.breadcrumb ul li{
+    display:inline-block;
+    *displace:inline;
+    background-color: #DDD;
+    color: #BBB;
+    padding: .1em 5px;
+    margin: 0 5px;
+    border-radius: 15px;
+    border-sizing: border-box;
+    max-width: 9em;
+    white-space:nowrap;
+    overflow: hidden;
+    transition: max-width 0.8s ease;
+    transition-delay: 5s;
+    text-transform: capitalize;
+}
+
+div.navbar div.breadcrumb ul li a{
+    color: #555;
+}
+
+div.navbar div.breadcrumb ul li:hover{
+    color: #CCC;
+    max-width: 30em;
+    transition-delay: 1s;
+}
+
+div.navbar div.breadcrumb ul li:last-child,
+div.navbar div.breadcrumb ul li:hover{
+    background-color: rgb(246,113,25);
+    color: #EEE;
+}
+
+div.navbar div.breadcrumb ul li:last-child a,
+div.navbar div.breadcrumb ul li:hover a{
+    color: #FFF
+}
+
+div.navbar div.breadcrumb ul li span.arrow{
+    display: none;
+}
